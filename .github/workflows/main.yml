@@ -15,7 +15,7 @@ jobs:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: |-
           Rscript -e "rmarkdown::render_site(encoding = 'UTF-8')"
-          echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
+#          echo "::set-env name=DEPLOY_PATH::$(Rscript -e "cat(rmarkdown::site_config()[['output_dir']])")"
 #      - name: Deploy to GitHub Pages
 #        if: github.ref == 'refs/heads/master'
 #        uses: maxheld83/ghpages@v0.2.0

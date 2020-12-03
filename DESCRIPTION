@@ -23,3 +23,5 @@ Imports:
     leaflet
 Suggests: 
 RoxygenNote: 7.1.1
+URL: https://github.com/AdamWilsonLabEDU/geo511_project_template
+BugReports: https://github.com/AdamWilsonLabEDU/geo511_project_template/issues
