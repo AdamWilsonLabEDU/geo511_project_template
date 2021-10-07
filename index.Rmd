@@ -49,7 +49,7 @@ library(kableExtra)
 knitr::opts_chunk$set(cache=TRUE)  # cache the results for quick compiling
 ```
 
-## Download and clean all required data
+## Generate and clean all required data
 ```{r}
 n=20
 data=data.frame(x=runif(n,-180,180),

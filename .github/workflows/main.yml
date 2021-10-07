@@ -1,4 +1,4 @@
-name: Render and Deploy RMarkdown Website
+name: Render RMarkdown Website
 'on': push
 jobs:
   build:
